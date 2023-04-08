@@ -1,0 +1,7 @@
+str1 = input("Enter First String: ")
+str2 = input("Enter Second String: ")
+l = []
+for i in str1:
+    if i in str2:
+        l.append(i)
+print("The common letters are: ", ", ".join(l))
