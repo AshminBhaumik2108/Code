@@ -1,0 +1,15 @@
+'''
+s = int(input("Enter Size of Triangle: "))
+for i in range(s, 0, -1):
+    print("* " * i)
+'''
+
+'''
+s = int(input("Enter Size of Triangle: "))
+for i in range(s , 0, -1):
+    print("  " * (s-i), "* "*i, sep = "")
+'''
+'''
+s = int(input("Enter size of the Triangle: "))
+for i in range(s + 1):
+    print(" " * (s-i), "* "*i) '''
