@@ -1,0 +1,6 @@
+a = int(input("Enter number: "))
+b = (a**0.5)**2
+if (a**0.5)**2 == a:
+    print("Perfect Square.")
+else:
+    print("Not a Perfect Square")
