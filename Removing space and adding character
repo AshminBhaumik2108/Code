@@ -1,0 +1,6 @@
+s = input("Enter String: ")
+li = [i for i in s]
+for i in range(len(s)):
+    if li[i] == " ":
+        li[i] ="-"
+print("".join(li))
