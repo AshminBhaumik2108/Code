@@ -1,0 +1,15 @@
+li = []
+def reverse(s):
+    if s < 0:
+        return ("".join(li))
+    else:
+        li.append(n[s])
+        return reverse(s-1)
+            
+n = input("Enter String: ")
+s = len(n)-1
+rev = (reverse(s))
+if rev == n:
+    print("Palindrome String")
+else:
+    print("Not a Palindrome String")
