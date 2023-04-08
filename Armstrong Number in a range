@@ -1,0 +1,13 @@
+ran = int(input("Enter Range for Armstrong Num. : "))
+lis = []
+for i in range(1, ran+1):
+    img = i
+    order = len(str(i))
+    s = 0
+    while i>0:
+        rem = i%10
+        s = s+(rem**order)
+        i = i//10
+    if s == img:
+        lis.append(img)
+print(lis)
