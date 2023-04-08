@@ -1,0 +1,9 @@
+def lowercase(a):
+    l = []
+    for i in a:
+        if ord(i) <= 90 or ord(i)>=65:
+            l.append(chr(ord(i)+32))
+    return "".join(l)
+
+s = input("Enter String: ")
+print(lowercase(s))
