@@ -1,0 +1,17 @@
+a = (input("Enter 3 numbers x: ")).split(" ")
+a = list(a)
+b = (input("Enter 3 numbers y: ")).split(" ")
+b = list(b)
+c = (input("Enter 3 numbers z: ")).split(" ")
+c = list(c)
+for i in range(1):
+    print(a[i], a[i+1], a[i+2], sep = " ")
+
+    print(b[i], b[i + 1], b[i + 2], sep=" ")
+    print(c[i], c[i + 1], c[i + 2], sep=" ")
+print(" ")
+
+print("Transpose: ")
+for i in range(3):
+
+    print(a[i], b[i], c[i], sep = " ")
