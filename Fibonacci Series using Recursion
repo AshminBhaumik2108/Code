@@ -1,0 +1,9 @@
+def fibo(s):
+    if s<=1:
+        return s
+    else:
+        return (fibo(s-1) + fibo(s-2))
+
+s = int(input("Enter Range: "))
+for i in range(s+1):
+    print(fibo(i), end = " ")
