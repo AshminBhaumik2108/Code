@@ -1,0 +1,8 @@
+def mul(a,b):
+    if b == 0:
+        return 0
+    else:
+        return a + mul(a, b-1)
+a = int(input("E1: "))
+b = int(input("E2: "))
+print(mul(a,b)) '''
