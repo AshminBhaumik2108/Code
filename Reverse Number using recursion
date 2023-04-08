@@ -1,0 +1,11 @@
+li = []
+def reverse(n):
+    if n == 0:
+        print("".join(li))
+    else:
+        rem = n%10
+        li.append(str(rem))
+        n = n//10
+        reverse(n)
+n = int(input("Enter Number for reverse: "))        
+reverse(n)
