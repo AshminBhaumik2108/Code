@@ -1,0 +1,11 @@
+n = int(input("Enter number to check for palindrome: "))
+orig = n
+s = 0
+while n > 0:
+    rem = n%10
+    s = n*10 + rem
+    n = n//10
+if orig == s:
+    print("Palindrome Number")
+else:
+    print("Not a Palindrome Number")
