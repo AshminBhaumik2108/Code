@@ -1,0 +1,31 @@
+import math
+
+class Parent:
+    def number(self, n):
+        if n > 0:
+            print("Positive")
+        elif n < 0:
+            print("Negative")
+        else:
+            print("Zero")
+
+class Child(Parent):
+    def number(self, n):
+        if n > 0:
+            if int(math.sqrt(math.sqrt(n))) ** 4 == n:
+                print("Positive and perfect fourth power")
+            else:
+                print("Positive and not a perfect fourth power")
+        elif n < 0:
+            if int(math.sqrt(math.sqrt(-n))) ** 4 == -n:
+                print("Negative and perfect fourth power")
+            else:
+                print("Negative and not a perfect fourth power")
+        else:
+            print("Zero")
+
+n = int(input("Enter a number: "))
+p = Parent()
+p.number(n)
+c = Child()
+c.number(n)
