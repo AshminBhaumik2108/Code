@@ -1,0 +1,7 @@
+n = int(input("Enter Total Number: "))
+years = n//365
+n = n - (365*years)
+months = n//30
+days = n - (months*30)
+
+print(f"{years} Years {months} Months {days} Days")
