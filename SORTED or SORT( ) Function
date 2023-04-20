@@ -1,0 +1,11 @@
+# Sorted function:-
+
+l = [1, 2, 6, 7, 3, 5, 4]
+l.sort()
+print(l)
+
+or
+
+l = [1, 2, 6, 7, 3, 5, 4]
+l = sorted(l)
+print(l)
