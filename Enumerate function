@@ -1,0 +1,3 @@
+list_input = ["A", "B", "C", "D", "E"]
+for i, j in enumerate(list_input):
+    print(i, j)
